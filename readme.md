@@ -121,3 +121,72 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 ---
 
 ## 🎯 Prompt de Resposta Proposto
+
+```
+Este prompt coleta informações específicas de um indivíduo para gerar um plano de treino personalizado, levando em consideração suas características físicas, disponibilidade, preferências de treino, e outras variáveis importantes.
+
+## Variáveis a serem Coletadas
+
+1. **{{biotipo}}**
+2. **{{disponibilidade_treino}}**
+3. **{{tipo_de_treino}}**
+4. **{{faixa_etaria}}**
+5. **{{nível_de_experiência}}**
+6. **{{objetivo}}**
+7. **{{restrições_físicas}}**
+
+## Regras
+
+### **{{biotipo}}**
+
+- **Ectomorfo:** Corpo naturalmente magro, metabolismo acelerado, dificuldade em ganhar peso e massa muscular.
+- **Mesomorfo:** Corpo atlético, facilidade em ganhar massa muscular e perder gordura, boa resposta ao treinamento.
+- **Endomorfo:** Corpo com tendência a acumular gordura, metabolismo mais lento, maior dificuldade em perder peso.
+
+### **{{disponibilidade_treino}}**
+
+- **1 dia:** Treino Full Body
+- **3 dias:** Treino ABC
+- **5 dias:** Treino ABCDE
+
+### **{{tipo_de_treino}}**
+
+- **Funcional:** Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais e múltiplos grupos musculares.
+- **Maquinário:** Exercícios realizados em equipamentos, focados em isolar grupos musculares específicos.
+- **Peso Livre:** Exercícios com pesos livres (halteres, barras, kettlebells) para trabalhar múltiplos grupos musculares simultaneamente.
+- **Cardio:** Exercícios aeróbicos para melhorar a resistência cardiovascular (corrida, natação, ciclismo).
+- **HIIT:** Treinos intervalados de alta intensidade, eficientes para queima de gordura e condicionamento.
+
+### **{{faixa_etaria}}**
+
+- **18-25 anos:** Enfoque em treinos intensos com maior capacidade de recuperação.
+- **26-35 anos:** Equilíbrio entre intensidade e recuperação, com atenção ao fortalecimento muscular.
+- **36-45 anos:** Maior foco em exercícios de mobilidade e prevenção de lesões.
+- **46-60 anos:** Priorizar exercícios que preservem a massa muscular e articulações, com menor impacto.
+- **60+ anos:** Exercícios de baixo impacto, foco em mobilidade, força funcional e equilíbrio.
+
+### **{{nível_de_experiência}}**
+
+- **Iniciante:** Treinos com foco em técnica, baixa intensidade e progressão gradual.
+- **Intermediário:** Treinos que desafiem a força e a resistência, com progressões moderadas.
+- **Avançado:** Treinos intensos com maior volume e técnicas avançadas, como dropsets e superséries.
+
+### **{{objetivo}}**
+
+- **Ganho de Massa:** Foco em exercícios de hipertrofia com séries moderadas a pesadas e menor ênfase em cardio.
+- **Perda de Gordura:** Combinação de exercícios de força com cardio e HIIT para maximizar a queima calórica.
+- **Condicionamento:** Equilíbrio entre força, resistência e cardio para melhorar o desempenho geral.
+- **Manutenção:** Treinos equilibrados para manter o condicionamento atual sem grandes variações de peso.
+
+### **{{restrições_físicas}}**
+
+1. **Nenhuma restrição:** Treino pode ser elaborado sem limitações específicas, utilizando todas as opções de exercícios disponíveis.
+2. **Lesões articulares:** Se há problemas nas articulações (joelhos, ombros, tornozelos, etc.), priorizar exercícios de baixo impacto e evitar sobrecarga nas áreas afetadas. Incluir fortalecimento específico para articulações.
+3. **Problemas de coluna:** Em casos de hérnia, escoliose ou outros problemas na coluna, evitar exercícios que envolvam grande compressão da coluna ou movimentos de torção. Priorizar exercícios de fortalecimento do core e postura.
+4. **Condições cardíacas ou respiratórias:** Adaptar a intensidade do treino, focando em exercícios que não elevem exageradamente a frequência cardíaca. Incluir pausas maiores entre séries e exercícios aeróbicos de intensidade moderada.
+
+## Resultado Esperado
+
+Com base nas informações fornecidas, crie um plano de treino personalizado que atenda às necessidades específicas da pessoa, levando em consideração o biotipo, disponibilidade de treino, tipo de treino preferido, faixa etária, nível de experiência, objetivo e quaisquer restrições físicas.
+
+```
